@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url("./img/background-img-2.1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color:#FFE600;
+    text-shadow: 2px 2px 1px red;
+}
+
+#sabri-quote {
+    padding-bottom: 10px; 
+    font-size: 1.5rem;
+}
+
+#sabri {
+    min-width: 200px;
+    max-width: 35%;
+    height: auto;
+    border: 10px solid red;
+    border-style: ridge;
+}
+
+.section-1,.section-2{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #FFE600;
+    text-shadow: 1px 1px 1px red;
+    padding: 10px 0;
+}
+
+.section-1 {
+    background-image: url("./img/background-img-2.png");
+}
+
+.section-1 div {
+    text-align: left;
+    width: 600px;
+    margin: auto;
+    max-width: 100%;
+    padding: 0 20px;
+    background: rgb(0, 100, 0, 0.8);
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.section-2 {
+    background-image: url("./img/background-img.png");
+}
+
+.box-a, .box-b {
+    padding: 15px;
+    text-shadow: 2px 1px 2px #4b4e2b;
+}
+
+.box-a {
+    background: rgb(100, 100, 100, 0.6);
+    color: #fff347;
+}
+
+.box-b {
+    background: rgba(247, 156, 156, 0.3);
+    color: #fffb00;
+}
+
+.section-2 img {
+    width: 460px;
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+footer {
+    background-image: url("./img/spongebob_sabri_dark.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px;
+    color: white;
+}
+
+footer small {
+    font-size: 0.8rem;
+}
+
+footer small a {
+    color: #eee;
+}
+
+@media screen and (max-width: 560px) {
+    #pm {
+        font-size: 1.5rem;
+    }
+
+    #sabri-quote {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    body {
+        font-size: 15px; 
+    }
+}
+
+@media screen and (max-width: 410px) {
+    #pm {
+        font-size: 1.2rem;
+    }
+
+    #sabri-quote {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    body {
+        font-size: 13px; 
+    }
+    .section-title {
+        font-size: 24px;
+    }
+
+    footer small {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    footer small {
+        font-size: 0.4rem;
+    }
+}
